@@ -1,6 +1,6 @@
 package pc.predi;
 
-public class SinglyLinkedList2<E> {
+public class SinglyLinkedList<E> {
 	
 	private class Node {
 		public E data;
