@@ -1,6 +1,6 @@
 package pc.predi;
 
-public class SinglyLinkedList<E> {
+public class SinglyLinkedList2<E> {
 	
 	private class Node {
 		public E data;
@@ -9,20 +9,6 @@ public class SinglyLinkedList<E> {
 		public Node(E data) {
 			this.data = data;
 			this.next = null;
-		}
-		
-		@SuppressWarnings("unused")
-		public Node(E data, Node next) {
-			this.data = data;
-			this.next = next;
-		}
-		
-		@SuppressWarnings("unchecked")
-		public String toString() {
-			if(next == null) {
-				next.data = (E)"null";
-			}
-			return "Node: data is " + data + "Next node data is" + next.data;
 		}
 		
 	}
