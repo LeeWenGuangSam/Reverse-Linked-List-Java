@@ -1,6 +1,6 @@
 package pc.predi;
 
-public class MainApp {
+public class MainApp2 {
 	public static void main(String[] args) {
 		SinglyLinkedList2<String> singleLL = new SinglyLinkedList2<String>();
 		singleLL.add("1st");
