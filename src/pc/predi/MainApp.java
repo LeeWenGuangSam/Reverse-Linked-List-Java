@@ -1,6 +1,6 @@
 package pc.predi;
 
-public class MainApp2 {
+public class MainApp {
 	public static void main(String[] args) {
 		SinglyLinkedList2<String> singleLL = new SinglyLinkedList2<String>();
 		singleLL.add("1st");
@@ -9,7 +9,13 @@ public class MainApp2 {
 		singleLL.add("4th");
 		singleLL.add("5th");
 		
-		System.out.println(singleLL.size());
+		System.out.println("Basic linked list: ");
+		
+		for(int i = 0; i < singleLL.size(); i++) {
+			System.out.println(singleLL.get(i));
+		}
+		
+		System.out.println("Reversed linked list:");
 		
 		singleLL.reverse();
 		
